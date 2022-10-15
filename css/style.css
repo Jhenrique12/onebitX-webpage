@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container00 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/images/home/01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  font-weight: bold;
+}
+.container00 .navbarElements {
+  font-size: 12px;
+}
+.container00 .navbarElements .navbarText {
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
