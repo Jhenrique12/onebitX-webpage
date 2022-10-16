@@ -1,22 +1,75 @@
+.navbarElements {
+  font-size: 12px;
+}
+.navbarElements .navbarText {
+  margin-left: 20px;
+}
+
+.containerHome, .containerHome4, .containerHome3, .containerHome2, .containerHome1 {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  font-weight: bold;
+  color: white;
+}
+
+.groupTextHome, .containerHome4 .groupTextHome4, .containerHome3 .groupTextHome3, .containerHome2 .groupTextHome2, .containerHome1 .groupTextHome1 {
+  max-width: 550px;
+  padding-top: 200px;
+}
+.groupTextHome .paragraph, .containerHome4 .groupTextHome4 .paragraph, .containerHome3 .groupTextHome3 .paragraph, .containerHome2 .groupTextHome2 .paragraph, .containerHome1 .groupTextHome1 .paragraph {
+  font-size: 19px;
+}
+.groupTextHome .groupTitle, .containerHome4 .groupTextHome4 .groupTitle, .containerHome3 .groupTextHome3 .groupTitle, .containerHome2 .groupTextHome2 .groupTitle, .containerHome1 .groupTextHome1 .groupTitle {
+  margin: -10px 0 55px 0;
+  font-size: 40px;
+}
+.groupTextHome .btnHome, .containerHome4 .groupTextHome4 .btnHome, .containerHome3 .groupTextHome3 .btnHome, .containerHome2 .groupTextHome2 .btnHome, .containerHome1 .groupTextHome1 .btnHome {
+  font-size: 16px;
+  padding: 16px 38px;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 15vh;
+  margin: 0 auto 0 auto;
+  padding: 0 20px 0 20px;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .copyright {
+  color: #555252;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
-.container00 {
-  width: 100vw;
-  height: 100vh;
+.containerHome1 {
   background-image: url(/images/home/01.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  font-weight: bold;
 }
-.container00 .navbarElements {
-  font-size: 12px;
+.containerHome2 {
+  background-image: url(/images/home/03.jpg);
 }
-.container00 .navbarElements .navbarText {
-  margin-left: 20px;
+.containerHome3 {
+  background-image: url(/images/home/02.gif);
+}
+.containerHome4 {
+  background-image: url(/images/home/04.jpg);
+}
+.containerHome4 .groupTextHome4 {
+  max-width: 610px;
 }
 
 /*# sourceMappingURL=style.css.map */
