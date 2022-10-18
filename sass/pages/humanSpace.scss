@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainerHumanSpace {
+  @extend .containersPages;
+  background-image: url(/images/humanSpace/01.jpg);
+
+  .mainGroupTextHumanSpace {
+    margin-top: 15%;
+    .mainTitle {
+      font-size: 120px;
+    }
+    .mainTitleParagraph {
+      font-size: 30px;
+      font-weight: 100;
+    }
+  }
+}
+
+.contactParagraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d8d8d8;
+  font-size: 18px;
+  p {
+    width: 800px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.containerHumanSpace1 {
+  @extend .containersPages;
+  background-image: url(/images/humanSpace/02.jpg);
+
+  .groupTextHumanSpace1 {
+    @extend .groupTextHumanSpace;
+    padding-left: 55%;
+  }
+}
+
+.containerHumanSpace2 {
+  @extend .containersPages;
+  background-image: url(/images/humanSpace/03.jpg);
+
+  .groupTextHumanSpace2 {
+    @extend .groupTextHumanSpace;
+  }
+}
+
+.containerHumanSpace3 {
+  @extend .containersPages;
+  background-image: url(/images/humanSpace/04.jpg);
+
+  .groupTextHumanSpace3 {
+    @extend .groupTextHumanSpace;
+    padding-left: 55%;
+  }
+}
+
+.containerHumanSpace4 {
+  @extend .containersPages;
+  background-image: url(/images/humanSpace/05.jpg);
+
+  .groupTextHumanSpace4 {
+    @extend .groupTextHumanSpace;
+  }
+}
+
+.contactContainer {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 22%;
+  font-size: 15px;
+  color: #d8d8d8;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .contactButtons {
+    border: 2px solid #d8d8d8;
+    font-size: 16px;
+    padding: 15px;
+    margin-right: 5px;
+  }
+}
