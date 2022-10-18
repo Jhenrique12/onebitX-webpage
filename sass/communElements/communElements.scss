@@ -1,36 +1,23 @@
 .navbarElements {
+  font-weight: bold;
   font-size: 12px;
   .navbarText {
     margin-left: 20px;
   }
 }
-.containerHome {
+.containersPages {
   width: 100vw;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
-
-  font-weight: bold;
   color: white;
-}
 
-.groupTextHome {
-  max-width: 550px;
-  padding-top: 200px;
-  .paragraph {
-    font-size: 19px;
-  }
-  .groupTitle {
-    margin: -10px 0 55px 0;
-    font-size: 40px;
-  }
-  .btnHome {
+  .commonButton {
     font-size: 16px;
     padding: 16px 38px;
   }
 }
-
 .footer {
   background-color: black;
   width: 100%;
@@ -42,11 +29,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   .copyright {
     color: $copyright-color;
   }
   a {
     text-decoration: none;
     color: white;
+  }
+}
+
+.groupTextHome {
+  max-width: 550px;
+  padding-top: 200px;
+  font-weight: bold;
+  .paragraph {
+    font-size: 19px;
+  }
+  .groupTitle {
+    margin: -10px 0 55px 0;
+    font-size: 40px;
+  }
+}
+
+.groupTextHumanSpace {
+  padding-top: 220px;
+  .groupTitle {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .paragraphDescription {
+    font-weight: 100;
   }
 }
