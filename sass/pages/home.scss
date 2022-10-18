@@ -4,7 +4,7 @@
 }
 
 .containerHome1 {
-  @extend .containerHome;
+  @extend .containersPages;
   background-image: url(/images/home/01.jpg);
 
   .groupTextHome1 {
@@ -13,7 +13,7 @@
 }
 
 .containerHome2 {
-  @extend .containerHome;
+  @extend .containersPages;
   background-image: url(/images/home/03.jpg);
 
   .groupTextHome2 {
@@ -22,7 +22,7 @@
 }
 
 .containerHome3 {
-  @extend .containerHome;
+  @extend .containersPages;
   background-image: url(/images/home/02.gif);
 
   .groupTextHome3 {
@@ -30,7 +30,7 @@
   }
 }
 .containerHome4 {
-  @extend .containerHome;
+  @extend .containersPages;
   background-image: url(/images/home/04.jpg);
 
   .groupTextHome4 {
