@@ -8,7 +8,7 @@
   background-image: url(/images/humanSpace/01.jpg);
 
   .mainGroupTextHumanSpace {
-    margin-top: 15%;
+    margin-top: 70px;
     .mainTitle {
       font-size: 120px;
     }
@@ -90,3 +90,13 @@
     margin-right: 5px;
   }
 }
+
+// @media (max-width: 1326px) {
+//   .mainTitle {
+//     font-size: 20px;
+//   }
+//   .mainTitleParagraph {
+//     font-size: 20px;
+//     font-weight: 100;
+//   }
+// }
