@@ -25,8 +25,9 @@
   align-items: center;
   color: #d8d8d8;
   font-size: 18px;
+  padding: 40px;
   p {
-    width: 800px;
+    max-width: 800px;
   }
   a {
     text-decoration: none;
@@ -88,5 +89,56 @@
     font-size: 16px;
     padding: 15px;
     margin-right: 5px;
+  }
+}
+
+// Tablets
+@media (max-width: 769px) {
+  .mainContainerHumanSpace {
+    .mainGroupTextHumanSpace {
+      margin-top: 40px;
+      .mainTitle {
+        font-size: 90px;
+      }
+      .mainTitleParagraph {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .contactParagraph {
+    font-size: 20px;
+  }
+  .groupTextHumanSpace {
+    padding-top: 100px;
+  }
+}
+
+// Smartphones
+@media (max-width: 426px) {
+  .mainContainerHumanSpace {
+    .mainGroupTextHumanSpace {
+      margin-top: 40%;
+      .mainTitle {
+        font-size: 45px;
+      }
+      .mainTitleParagraph {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .contactParagraph {
+    font-size: 14px;
+  }
+  .groupTextHumanSpace {
+    padding-top: 100px;
+    padding-left: 20px;
+    .groupTitle {
+      font-size: 55px;
+    }
+    .paragraphDescription {
+      text-shadow: black 1px 1px;
+    }
   }
 }
