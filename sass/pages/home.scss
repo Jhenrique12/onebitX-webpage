@@ -11,7 +11,6 @@
     @extend .groupTextHome;
   }
 }
-
 .containerHome2 {
   @extend .containersPages;
   background-image: url(/images/home/03.jpg);
@@ -20,7 +19,6 @@
     @extend .groupTextHome;
   }
 }
-
 .containerHome3 {
   @extend .containersPages;
   background-image: url(/images/home/02.gif);
@@ -36,5 +34,37 @@
   .groupTextHome4 {
     @extend .groupTextHome;
     max-width: 610px;
+  }
+}
+
+// Tablets
+@media (max-width: 768px) {
+  .containersPages {
+    background-position: center;
+  }
+  .groupTextHome {
+    .groupTitle {
+      font-size: 35px;
+    }
+  }
+}
+
+// Smartphones
+@media (max-width: 425px) {
+  .logoNavbar {
+    width: 150px;
+    height: 25px;
+  }
+  .containersPages {
+    background-position: center;
+  }
+  .groupTextHome {
+    padding-top: 120px;
+    .groupTitle {
+      font-size: 27px;
+    }
+    .commonButton {
+      margin-bottom: 90px;
+    }
   }
 }
