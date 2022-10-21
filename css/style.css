@@ -1,3 +1,7 @@
+.header {
+  text-shadow: gray 0.5px 0.5px;
+}
+
 .navbarElements {
   font-weight: bold;
   font-size: 12px;
@@ -6,7 +10,7 @@
   margin-left: 20px;
 }
 
-.containersPages, .containerHumanSpace4, .containerHumanSpace3, .containerHumanSpace2, .containerHumanSpace1, .mainContainerHumanSpace, .containerHome4, .containerHome3, .containerHome2, .containerHome1 {
+.containersPages, .containerHumanSpace4, .containerHumanSpace3, .containerHumanSpace2, .containerHumanSpace1, .mainContainerHumanSpace, .carousel2Slide6, .carousel2Slide5, .carousel2Slide4, .carousel2Slide3, .carousel2Slide2, .carousel2Slide1, .merlinContainer, .carousel1Slide5, .carousel1Slide4, .carousel1Slide3, .carousel1Slide2, .carousel1Slide1, .descriptionContainerFalcon9, .mainContainerFalcon, .containerHome4, .containerHome3, .containerHome2, .containerHome1 {
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -14,7 +18,7 @@
   background-position: right;
   color: white;
 }
-.containersPages .commonButton, .containerHumanSpace4 .commonButton, .containerHumanSpace3 .commonButton, .containerHumanSpace2 .commonButton, .containerHumanSpace1 .commonButton, .mainContainerHumanSpace .commonButton, .containerHome4 .commonButton, .containerHome3 .commonButton, .containerHome2 .commonButton, .containerHome1 .commonButton {
+.containersPages .commonButton, .containerHumanSpace4 .commonButton, .containerHumanSpace3 .commonButton, .containerHumanSpace2 .commonButton, .containerHumanSpace1 .commonButton, .mainContainerHumanSpace .commonButton, .carousel2Slide6 .commonButton, .carousel2Slide5 .commonButton, .carousel2Slide4 .commonButton, .carousel2Slide3 .commonButton, .carousel2Slide2 .commonButton, .carousel2Slide1 .commonButton, .merlinContainer .commonButton, .carousel1Slide5 .commonButton, .carousel1Slide4 .commonButton, .carousel1Slide3 .commonButton, .carousel1Slide2 .commonButton, .carousel1Slide1 .commonButton, .descriptionContainerFalcon9 .commonButton, .mainContainerFalcon .commonButton, .containerHome4 .commonButton, .containerHome3 .commonButton, .containerHome2 .commonButton, .containerHome1 .commonButton {
   font-size: 16px;
   padding: 16px 38px;
 }
@@ -63,9 +67,29 @@
   font-weight: 100;
 }
 
+.carouselContent {
+  padding-top: 220px;
+  margin-left: 200px;
+  width: 480px;
+}
+.carouselContent .secondCarouselTitle {
+  font-size: 18px;
+}
+.carouselContent .tableCarousel {
+  width: 480px;
+  line-height: 40px;
+}
+.carouselContent .tableCarousel .tableRowCarousel {
+  border-bottom: 1px solid white;
+}
+.carouselContent .tableCarousel .tableRowCarousel td {
+  padding: 0 10px 0 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .containerHome1 {
@@ -85,7 +109,7 @@
 }
 
 @media (max-width: 768px) {
-  .containersPages, .containerHumanSpace4, .containerHumanSpace3, .containerHumanSpace2, .containerHumanSpace1, .mainContainerHumanSpace, .containerHome1, .containerHome2, .containerHome3, .containerHome4 {
+  .containersPages, .containerHumanSpace4, .containerHumanSpace3, .containerHumanSpace2, .containerHumanSpace1, .mainContainerHumanSpace, .carousel2Slide6, .carousel2Slide5, .carousel2Slide4, .carousel2Slide3, .carousel2Slide2, .carousel2Slide1, .merlinContainer, .carousel1Slide5, .carousel1Slide4, .carousel1Slide3, .carousel1Slide2, .carousel1Slide1, .descriptionContainerFalcon9, .mainContainerFalcon, .containerHome1, .containerHome2, .containerHome3, .containerHome4 {
     background-position: center;
   }
   .groupTextHome .groupTitle, .containerHome1 .groupTextHome1 .groupTitle, .containerHome2 .groupTextHome2 .groupTitle, .containerHome3 .groupTextHome3 .groupTitle, .containerHome4 .groupTextHome4 .groupTitle {
@@ -97,7 +121,7 @@
     width: 150px;
     height: 25px;
   }
-  .containersPages, .containerHumanSpace4, .containerHumanSpace3, .containerHumanSpace2, .containerHumanSpace1, .mainContainerHumanSpace, .containerHome1, .containerHome2, .containerHome3, .containerHome4 {
+  .containersPages, .containerHumanSpace4, .containerHumanSpace3, .containerHumanSpace2, .containerHumanSpace1, .mainContainerHumanSpace, .carousel2Slide6, .carousel2Slide5, .carousel2Slide4, .carousel2Slide3, .carousel2Slide2, .carousel2Slide1, .merlinContainer, .carousel1Slide5, .carousel1Slide4, .carousel1Slide3, .carousel1Slide2, .carousel1Slide1, .descriptionContainerFalcon9, .mainContainerFalcon, .containerHome1, .containerHome2, .containerHome3, .containerHome4 {
     background-position: center;
   }
   .groupTextHome, .containerHome1 .groupTextHome1, .containerHome2 .groupTextHome2, .containerHome3 .groupTextHome3, .containerHome4 .groupTextHome4 {
@@ -113,13 +137,118 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainerFalcon {
+  background-image: url(/images/falcon9/01.jpg);
+}
+.mainContainerFalcon .mainGroupTextFalcon {
+  margin-top: 220px;
+  text-shadow: gray 0.5px 0.5px;
+}
+.mainContainerFalcon .mainGroupTextFalcon .mainTitle {
+  font-size: 100px;
+}
+.mainContainerFalcon .mainGroupTextFalcon .mainTitleParagraph {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.infoColumsContainer {
+  padding-top: 60px;
+  color: white;
+}
+.infoColumsContainer .columnHead {
+  font-size: 90px;
+}
+.infoColumsContainer .columnParagraph {
+  font-size: 20px;
+}
+
+.descriptionContainerFalcon9 {
+  background-image: url(/images/falcon9/02.jpg);
+  background-position: center;
+}
+.descriptionContainerFalcon9 .descriptionParagraph {
+  width: 640px;
+  line-height: 50px;
+  padding-top: 160px;
+  font-size: 22px;
+}
+
+.carousel1Slide1 {
+  background-image: url(/images/falcon9/03.jpg);
+  background-position: center;
+}
+
+.carousel1Slide2 {
+  background-image: url(/images/falcon9/04.jpg);
+  background-position: center;
+}
+
+.carousel1Slide3 {
+  background-image: url(/images/falcon9/05.jpg);
+  background-position: center;
+}
+
+.carousel1Slide4 {
+  background-image: url(/images/falcon9/06.jpg);
+  background-position: center;
+}
+
+.carousel1Slide5 {
+  background-image: url(/images/falcon9/07.jpg);
+  background-position: center;
+}
+
+.merlinContainer {
+  background-image: url(/images/falcon9/08.jpg);
+  background-position: center;
+}
+
+.carousel2Slide1 {
+  background-image: url(/images/falcon9/09.jpg);
+  background-position: center;
+}
+
+.carousel2Slide2 {
+  background-image: url(/images/falcon9/10.jpg);
+  background-position: center;
+}
+
+.carousel2Slide3 {
+  background-image: url(/images/falcon9/11.jpg);
+  background-position: center;
+}
+
+.carousel2Slide4 {
+  background-image: url(/images/falcon9/12.jpg);
+  background-position: center;
+}
+
+.carousel2Slide5 {
+  background-image: url(/images/falcon9/13.jpg);
+  background-position: center;
+}
+
+.carousel2Slide6 {
+  background-image: url(/images/falcon9/14.jpg);
+  background-position: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .mainContainerHumanSpace {
   background-image: url(/images/humanSpace/01.jpg);
 }
 .mainContainerHumanSpace .mainGroupTextHumanSpace {
-  margin-top: 70px;
+  margin-top: 155px;
+  text-shadow: gray 1px 0.5px;
 }
 .mainContainerHumanSpace .mainGroupTextHumanSpace .mainTitle {
   font-size: 120px;
@@ -130,9 +259,6 @@
 }
 
 .contactParagraph {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: #d8d8d8;
   font-size: 18px;
   padding: 40px;
@@ -222,6 +348,9 @@
   }
   .groupTextHumanSpace .paragraphDescription, .containerHumanSpace1 .groupTextHumanSpace1 .paragraphDescription, .containerHumanSpace2 .groupTextHumanSpace2 .paragraphDescription, .containerHumanSpace3 .groupTextHumanSpace3 .paragraphDescription, .containerHumanSpace4 .groupTextHumanSpace4 .paragraphDescription {
     text-shadow: black 1px 1px;
+  }
+  .contactContainer .contactButtons {
+    margin: 10px;
   }
 }
 
