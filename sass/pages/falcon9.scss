@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainerFalcon {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/01.jpg);
+
+  .mainGroupTextFalcon {
+    margin-top: 220px;
+    text-shadow: gray 0.5px 0.5px;
+    .mainTitle {
+      font-size: 100px;
+    }
+    .mainTitleParagraph {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}
+
+.infoColumsContainer {
+  padding-top: 60px;
+  color: white;
+  .columnHead {
+    font-size: 90px;
+  }
+  .columnParagraph {
+    font-size: 20px;
+  }
+}
+
+.descriptionContainerFalcon9 {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/02.jpg);
+  background-position: center;
+  .descriptionParagraph {
+    width: 640px;
+    line-height: 50px;
+    padding-top: 160px;
+    font-size: 22px;
+  }
+}
+
+.carousel1Slide1 {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/03.jpg);
+  background-position: center;
+}
+.carousel1Slide2 {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/04.jpg);
+  background-position: center;
+}
+.carousel1Slide3 {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/05.jpg);
+  background-position: center;
+}
+.carousel1Slide4 {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/06.jpg);
+  background-position: center;
+}
+.carousel1Slide5 {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/07.jpg);
+  background-position: center;
+}
+.merlinContainer {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/08.jpg);
+  background-position: center;
+}
+
+.carousel2Slide1 {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/09.jpg);
+  background-position: center;
+}
+.carousel2Slide2 {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/10.jpg);
+  background-position: center;
+}
+.carousel2Slide3 {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/11.jpg);
+  background-position: center;
+}
+.carousel2Slide4 {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/12.jpg);
+  background-position: center;
+}
+.carousel2Slide5 {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/13.jpg);
+  background-position: center;
+}
+.carousel2Slide6 {
+  @extend .containersPages;
+  background-image: url(/images/falcon9/14.jpg);
+  background-position: center;
+}
