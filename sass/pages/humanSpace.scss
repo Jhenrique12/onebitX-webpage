@@ -115,6 +115,10 @@
 
 // Smartphones
 @media (max-width: 426px) {
+  .logoNavbar {
+    width: 150px;
+    height: 25px;
+  }
   .mainContainerHumanSpace {
     .mainGroupTextHumanSpace {
       margin-top: 40%;
