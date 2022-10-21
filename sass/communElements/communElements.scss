@@ -1,3 +1,7 @@
+// All Commum Pages
+.header {
+  text-shadow: gray 0.5px 0.5px;
+}
 .navbarElements {
   font-weight: bold;
   font-size: 12px;
@@ -39,6 +43,7 @@
   }
 }
 
+// Home Page
 .groupTextHome {
   max-width: 550px;
   padding-top: 200px;
@@ -52,6 +57,7 @@
   }
 }
 
+// Human SpaceFlight Page
 .groupTextHumanSpace {
   padding-top: 220px;
   .groupTitle {
@@ -60,5 +66,25 @@
   }
   .paragraphDescription {
     font-weight: 100;
+  }
+}
+
+// Falcon 9 Page
+.carouselContent {
+  padding-top: 220px;
+  margin-left: 200px;
+  width: 480px;
+  .secondCarouselTitle {
+    font-size: 18px;
+  }
+  .tableCarousel {
+    width: 480px;
+    line-height: 40px;
+    .tableRowCarousel {
+      border-bottom: 1px solid white;
+      td {
+        padding: 0 10px 0 10px;
+      }
+    }
   }
 }
