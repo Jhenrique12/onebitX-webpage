@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .mainContainerHumanSpace {
@@ -8,7 +9,8 @@
   background-image: url(/images/humanSpace/01.jpg);
 
   .mainGroupTextHumanSpace {
-    margin-top: 70px;
+    margin-top: 155px;
+    text-shadow: gray 1px 0.5px;
     .mainTitle {
       font-size: 120px;
     }
@@ -20,9 +22,6 @@
 }
 
 .contactParagraph {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: #d8d8d8;
   font-size: 18px;
   padding: 40px;
@@ -139,6 +138,11 @@
     }
     .paragraphDescription {
       text-shadow: black 1px 1px;
+    }
+  }
+  .contactContainer {
+    .contactButtons {
+      margin: 10px;
     }
   }
 }
