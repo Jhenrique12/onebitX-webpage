@@ -105,3 +105,59 @@
   background-image: url(/images/falcon9/14.jpg);
   background-position: center;
 }
+
+// Tablets
+@media (max-width: 769px) {
+  .descriptionContainerFalcon9 {
+    .descriptionParagraph {
+      padding-top: 90px;
+      font-size: 25px;
+    }
+  }
+  .carouselContent {
+    padding-top: 110px;
+    margin-left: 100px;
+  }
+}
+
+// Smartphones
+@media (max-width: 426px) {
+  .mainContainerFalcon {
+    .mainGroupTextFalcon {
+      margin-top: 140px;
+      .mainTitle {
+        font-size: 50px;
+      }
+      .mainTitleParagraph {
+        font-size: 20px;
+      }
+    }
+  }
+  .infoColumsContainer {
+    flex-direction: column;
+    .columnHead {
+      font-size: 50px;
+    }
+    .columnParagraph {
+      font-size: 20px;
+    }
+  }
+  .descriptionContainerFalcon9 {
+    .descriptionParagraph {
+      width: 290px;
+      padding-top: 40px;
+      line-height: 30px;
+      font-size: 18px;
+    }
+  }
+  .carouselContent {
+    padding-top: 60px;
+    margin-left: 10px;
+    width: 290px;
+
+    .tableCarousel {
+      width: 300px;
+      line-height: 35px;
+    }
+  }
+}
