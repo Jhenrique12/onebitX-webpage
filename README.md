@@ -49,6 +49,8 @@ O projeto foi fruto da resolução de um exercício do módulo de Bootstrap do c
 - [Documentação do Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 - [Biblioteca de animação](https://michalsnik.github.io/aos/)
 
+## Autor
+[João Henrique Camelo Vieira](https://www.linkedin.com/in/jo%C3%A3o-henrique-vieira/)
 
 
 
